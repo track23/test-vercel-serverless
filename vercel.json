@@ -1,9 +1,8 @@
 {
-  "functions": {
-    "/": {
+  "builds": [
+    {
       "src": "index.js",
-      "runtime": "@now/node"
+      "use": "@vercel/node"
     }
-  },
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  ]
 }
