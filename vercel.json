@@ -1,14 +1,8 @@
 {
-  "builds": [
-    {
+  "functions": {
+    "/": {
       "src": "index.js",
-      "use": "@now/node"
+      "runtime": "@now/node"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.js"
-    }
-  ]
+  }
 }
