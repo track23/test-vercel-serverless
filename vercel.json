@@ -4,5 +4,11 @@
       "src": "index.js",
       "runtime": "@now/node"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.js"
+    }
+  ]
 }
